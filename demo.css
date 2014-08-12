@@ -17,11 +17,11 @@ a:hover{
 .clr{
 	clear: both;
 }
-.wrapper{
+.wrapper1{
 	position: relative;
 	width: 100%;
 }
-.wrapper p{
+.wrapper1 p{
 	clear: both;
 	font-size: 24px;
 	line-height: 40px;
