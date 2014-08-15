@@ -2,9 +2,8 @@
 
 /* General Demo Style */
 body{
-	background: #fff;
+	background: #222;
 	color: #000;
-	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 13px;
 }
 a{
@@ -48,38 +47,5 @@ h1 span{
 	text-transform: none;
 	font-size: 20px;
 }
-/* Header Style */
-.header{
-	font-family:"Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-	font-size: 10px;
-	padding: 3px 5px;
-	background: #000;
-	opacity: 0.9;
-	text-transform: uppercase;
-}
-.header a{
-	line-height: 18px;
-	letter-spacing: 1px;
-	text-shadow: 1px 1px 1px #000;
-	color: #ddd;
-}
-.header a:hover{
-	color: #fff;
-}
-.header a span{
-	font-weight: bold;
-}
-.header span.right{
-	float: right;
-}
-@media screen and (max-width: 860px) {
-	.header a{
-		display: block;
-		text-align: center;
-		font-size: 10px;
-		text-shadow: none;
-	}
-	.header span.right{
-		float: none;
-	}
-}
+
+
