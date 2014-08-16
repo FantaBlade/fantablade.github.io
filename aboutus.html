@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>幻刃游戏--关于我们</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="headroom.css">
+  <link rel="stylesheet" href="demo.css">
+  <link rel="shortcut icon" href="images/logo.png"/>
+  <script type="text/javascript" src="jquery.js"></script>
+  <style type="text/css">
+    body{background: #333;min-height: 2000px;}
+  </style>
+</head>
+<body>
+  <header id="header" class="fb_nav header header--fixed hide-from-print animated slideDown" style="z-index:99999;">
+    <div style="margin:0 auto;width:1000px;">
+      <div style="margin:11px 15px 0px 60px;float:left; display:block;">
+        <img src="logo_metal1.png" width="100"/>
+      </div>
+      <a href="index.html" style="background-position:530px 0px;min-width:80px;"></a>
+      <a href="aboutus.html" style="background-position:450px 0px;min-width:140px;"></a>
+      <a href="joinus.html" style="background-position:300px 0px;min-width:150px;"></a>
+      <a href="javascript:void(0);" style="background-position:140px 0px;min-width:140px;"></a>
+    </div>
+  </header>
+</body>
+  <script type="text/javascript" src="scrolltopcontrol.js"></script>
+  <script src="jQuery.headroom.min.js"></script>
+  <script src="headroom.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      (function() {
+        var header = new Headroom(document.querySelector("#header"), {
+        tolerance: 5,
+        offset : 500,
+        classes: {
+            "initial": "animated",
+            "pinned": "bounceInDown",
+            "unpinned": "bounceOutUp"
+        }
+    });
+    header.init();
+    var topHeadroom = new Headroom(document.getElementById("topcontrol"), {
+        tolerance : 0,
+        offset : 500,
+        classes : {
+            initial : "slide",
+            pinned : "slide--reset",
+            unpinned : "slide--down"
+        }
+    });
+    topHeadroom.init();
+    }());
+  });
+  </script>
+</html>

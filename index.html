@@ -1,47 +1,11 @@
 <html>
 <head>
-  <title>幻刃网络</title>
+  <title>幻刃游戏</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="demo.css" />
+  <link rel="shortcut icon" href="images/logo.png"/>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" href="headroom.css">
-  <style type="text/css">
-    .fb_nav{
-      text-align: center;
-      background: #333;
-      width: 100%;
-      height:121px;
-      float: left;
-      display:block;
-      text-align: center;
-      margin:0 auto;
-      text-align:center; 
-    }
-    .fb_nav a{
-      z-index:99999;
-      margin-top:44px;
-      float:left;
-      background:url('nav.png');
-      position:relative;
-      display:inline;
-      height:38px;
-      margin-left:60px;
-    }
-    .fb_nav img{
-      z-index:99999;
-    }
-    .fb_nav_logo{
-      display:inline;
-      float: left;
-    }
-    .fb_main{
-      height: 500px;
-      background-color: #222;
-      text-align: center;
-      position:relative;
-      display:inline;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="demo.css" />
   <script type="text/javascript" src="jquery.js"></script>
 </head>
 <body>
@@ -51,8 +15,7 @@
         <img src="logo_metal1.png" width="100"/>
       </div>
       <a href="index.html" style="background-position:530px 0px;min-width:80px;"></a>
-      <a href="http://www.baidu.com" style="background-position:450px 0px;min-width:140px;"></a>
-      <a href="http://www.baidu.com" style="background-position:300px 0px;min-width:150px;"></a>
+      <a href="joinus.html" style="background-position:300px 0px;min-width:150px;"></a>
       <a href="javascript:void(0);" style="background-position:140px 0px;min-width:140px;"></a>
     </div>
   </header>
@@ -62,7 +25,7 @@
         <li>
           <img src="images/wallpaper-1738907.png" alt="image01" />
           <div class="ei-title">
-            <h2 class="title">幻刃</h2>
+            <h2 class="title">幻刃游戏</h2>
           </div>
         </li>
         <li>
@@ -132,7 +95,7 @@
     <p>如果你也厌倦了这个浮华的市场</p>
     <p>如果你同样追求完美，想尽情宣泄那天马行空的创造力</p>
     <p>加入我们，体验不同寻常的游戏创造之路</p>
-    <div style="margin:100px auto;text-align:center;"><a class="fb_job_btn" >加入我们</a></div>
+    <div style="margin:100px auto;text-align:center;"><a class="fb_job_btn" href="joinus.html">加入我们</a></div>
   </div>
 </body>
   <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
@@ -142,7 +105,7 @@
     $('#ei-slider').eislideshow({
       easing : 'easeOutExpo',
       titleeasing : 'easeOutExpo',
-      titlespeed  : 1200
+      titlespeed  : 2000
     });
   });
   </script>
@@ -157,6 +120,8 @@
     $(".item").mouseleave(function(){
       $(this).find(".information").fadeOut();
     });
+    </script>
+    <script type="text/javascript">
     $(document).ready(function(){
       (function() {
         var header = new Headroom(document.querySelector("#header"), {
@@ -181,5 +146,5 @@
     topHeadroom.init();
     }());
   });
-</script>
+  </script>
 </html>
