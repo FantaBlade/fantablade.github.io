@@ -113,8 +113,9 @@ a:hover {
     position: absolute;
     top: 0;
     height: 250px;
-    width: 250px;
+    width: 252px;
     text-align: left;
+    margin-left:-1px;
     padding: 10px;
     font-size: 20px;
     box-shadow: none;
