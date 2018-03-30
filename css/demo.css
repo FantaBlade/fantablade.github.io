@@ -1,5 +1,6 @@
 @import url('reset.css');
 
+
 /* General Demo Style */
 
 body {
@@ -242,6 +243,25 @@ a:hover {
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
+}
+
+.fb_footer {
+    text-align: center;
+    background-color: #00000099;
+    color: #F1F1F1;
+    padding: 10px;
+}
+
+.fb_footer a{
+    color: #F1F1F1;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.fb_footer a:hover {
+    color: #F12121;
+    text-decoration: underline;
 }
 
 .up {
