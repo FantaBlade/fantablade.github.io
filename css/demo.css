@@ -1,6 +1,4 @@
 @import url('reset.css');
-
-
 /* General Demo Style */
 
 body {
@@ -246,17 +244,19 @@ a:hover {
 }
 
 .fb_footer {
-    text-align: center;
-    background-color: #00000099;
+    /* text-align: center; */
+    background-color: #000000EE;
     color: #F1F1F1;
-    padding: 10px;
+    padding: 20px;
+    font-size: 1em;
+    line-height: 180%;
 }
 
-.fb_footer a{
+.fb_footer a {
     color: #F1F1F1;
     font-style: normal;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 1em;
 }
 
 .fb_footer a:hover {
@@ -277,4 +277,36 @@ a:hover {
     filter: alpha(Opacity=100);
     -moz-opacity: 1;
     opacity: 1;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
 }
